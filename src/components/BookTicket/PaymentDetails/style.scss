@@ -1,0 +1,49 @@
+#payment-details {
+  color: #000;
+
+  .currency-action-btn-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .currency-action-btn {
+      height: 45px;
+      border-radius: 50px;
+      padding: 12px 30px;
+      background-color: #fff;
+      color: #232324;
+      cursor: pointer;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .currency-active-btn {
+      color: #fff;
+      background-color: #2a3a8e;
+    }
+  }
+
+  .payment-type-action-btn-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .payment-type-action-btn {
+      height: 45px;
+      border-radius: 50px;
+      padding: 12px 30px;
+      background-color: #fff;
+      color: #232324;
+      cursor: pointer;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .payment-type-active-btn {
+      color: #fff;
+      background-color: #2a3a8e;
+    }
+  }
+}

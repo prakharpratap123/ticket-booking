@@ -1,0 +1,38 @@
+#other-details {
+  color: #000;
+
+  .switch-container {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    .ant-switch .ant-switch-handle::before {
+      background-color: #5057ea !important;
+    }
+  }
+
+  .action-btn-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .action-btn {
+      height: 45px;
+      border-radius: 50px;
+      padding: 12px 30px;
+      background-color: #fff;
+      color: #232324;
+      cursor: pointer;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .active-btn {
+      color: #fff;
+      background-color: #2a3a8e;
+    }
+  }
+}

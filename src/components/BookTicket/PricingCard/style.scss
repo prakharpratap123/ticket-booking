@@ -1,0 +1,131 @@
+#pricing-card {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 15px 30px;
+
+  .select-currency {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+    .content-left {
+      text-align: left;
+    }
+
+    .content-right {
+      text-align: right;
+    }
+
+    .content-left,
+    .content-right {
+      .location-details {
+        .location-name {
+          font-size: 14px;
+          color: #232324;
+          opacity: 0.6;
+        }
+
+        .location-code {
+          font-size: 24px;
+          color: #000;
+          font-weight: 500;
+        }
+
+        .journey-start-date {
+          font-size: 14px;
+          color: #232324;
+          opacity: 0.6;
+        }
+      }
+
+      .stay-details {
+        margin-top: 10px;
+        .stay {
+          font-size: 18px;
+          font-weight: 500;
+        }
+
+        .stay-start-date {
+          font-size: 14px;
+          color: #232324;
+          opacity: 0.6;
+        }
+      }
+
+      .passenger-details {
+        margin-top: 10px;
+        .person-name {
+          font-size: 16px;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+      }
+
+      .contact-details {
+        background-color: #f5f5ff;
+        border-radius: 14px;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        margin-top: 10px;
+
+        .details {
+          font-size: 16px;
+        }
+      }
+
+      .amount {
+        font-size: 16px;
+        font-weight: 400;
+        color: #5057ea;
+        margin-top: 10px;
+      }
+
+      .passenger-count {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #232324;
+        opacity: 0.6;
+
+        .count {
+          background-color: #5057ea1a;
+          color: #5057ea;
+          padding: 2px 5px;
+        }
+      }
+
+      .gst-percentage {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #232324;
+        opacity: 0.6;
+      }
+
+      .total-amount {
+        font-size: 20px;
+        font-weight: 400;
+        color: #5057ea;
+        margin-top: 10px;
+      }
+    }
+
+    .content-right {
+      .passenger-details {
+        margin-top: 10px;
+        .person-name {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}

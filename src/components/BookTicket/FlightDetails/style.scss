@@ -1,0 +1,44 @@
+#flight-details {
+  .travel-details {
+    .trip-select {
+      .MuiFormControl-root {
+        padding: 5px 20px;
+        background-color: #2a3a8e;
+        border-radius: 10px;
+        width: 100%;
+
+        .MuiFormGroup-root {
+          justify-content: space-between;
+        }
+
+        .MuiTypography-root {
+          color: #fff;
+        }
+
+        .MuiRadio-root {
+          color: #fff;
+        }
+      }
+    }
+
+    .arrival-day-select {
+      .MuiFormControl-root {
+        padding: 5px 0px;
+        border-radius: 10px;
+        width: 100%;
+
+        .MuiFormGroup-root {
+          justify-content: space-between;
+        }
+
+        .MuiTypography-root {
+          color: #fff;
+        }
+
+        .MuiRadio-root {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
