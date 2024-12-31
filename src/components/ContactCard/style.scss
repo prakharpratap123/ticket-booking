@@ -1,6 +1,8 @@
 #contact-card-container {
-  height: 400px;
-  width: 475px;
+  min-height: 400px;
+  height: auto;
+  width: 100%;
+  // width: 475px;
   background-color: #f9f9f9;
   border-radius: 40px;
   padding: 38px;

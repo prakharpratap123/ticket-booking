@@ -76,7 +76,8 @@ const TravelBlogsComponent = () => {
         padding: "4.375rem 9.375rem",
         backgroundColor: "var(--primary-white)",
         color: "var(--primary-text-color)",
-        width: "calc(100% - 18.75rem)",
+        // width: "calc(100% - 18.75rem)",
+        width: "calc(100%)",
       }}
     >
       <Box

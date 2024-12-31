@@ -58,7 +58,7 @@ const SwiftAndSecureComponent = () => {
           marginBottom: "1.25rem",
         }}
       >
-        swift & secure
+        Swift & Secure
       </Typography>
       <Typography
         sx={{

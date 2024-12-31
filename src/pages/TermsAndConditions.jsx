@@ -17,8 +17,8 @@ const TermsAndConditions = () => {
       sx={{
         position: "relative",
         width: "100%",
-        maxWidth: "1920px",
-        margin: "0 auto",
+        // maxWidth: "1920px",
+        // margin: "0 auto",
         paddingBottom: "20rem",
       }}
     >
@@ -28,7 +28,7 @@ const TermsAndConditions = () => {
           height: "500px",
           display: "grid",
           placeContent: "center",
-          backgroundColor: "var(--secondary-background-color)",
+          // backgroundColor: "var(--secondary-background-color)",
         }}
       >
         <Box
@@ -46,7 +46,8 @@ const TermsAndConditions = () => {
         style={{
           height: "auto",
           padding: "2.5rem 7rem",
-          marginTop: "50px",
+          paddingTop: "100px",
+          backgroundColor: "#fff",
         }}
       >
         <div style={{ fontSize: "18px", fontWeight: 500 }}>
@@ -58,6 +59,7 @@ const TermsAndConditions = () => {
         style={{
           height: "auto",
           padding: "2.5rem 7rem",
+          backgroundColor: "#fff",
         }}
       >
         {termsData?.map(({ title, description }) => (

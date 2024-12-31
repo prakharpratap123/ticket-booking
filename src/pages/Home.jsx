@@ -21,8 +21,8 @@ const Home = () => {
       sx={{
         position: "relative",
         width: "100%",
-        maxWidth: "1920px",
-        margin: "0 auto",
+        // maxWidth: "1920px",
+        // margin: "0 auto",
         paddingBottom: "20rem",
       }}
     >
@@ -41,6 +41,7 @@ const Home = () => {
           width: "100%",
           display: "flex",
           justifyContent: "center",
+          backgroundColor: "#fff",
         }}
       >
         <SwiftAndSecureComponent />
@@ -59,6 +60,7 @@ const Home = () => {
           width: "100%",
           display: "flex",
           justifyContent: "center",
+          backgroundColor: "#fff",
         }}
       >
         <SeamlessTravelComponent />

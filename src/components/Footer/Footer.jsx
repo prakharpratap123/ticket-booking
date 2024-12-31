@@ -60,7 +60,8 @@ const Footer = () => {
           display: "flex",
           flexDirection: "column",
           // gap: "2rem",
-          maxWidth: "1920px !important",
+          // maxWidth: "1920px !important",
+          width: "100%",
           padding: "0 !important",
         }}
       >

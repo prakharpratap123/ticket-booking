@@ -5,6 +5,7 @@ import {
   useLocation,
   BrowserRouter as Router,
   Navigate,
+  Link,
 } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -15,7 +16,7 @@ import About from "./pages/About";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ContactUs from "./pages/ContactUs";
 import Faqs from "./pages/Faqs";
-import { Box } from "@mui/material";
+import { Box, List, ListItem, ListItemText } from "@mui/material";
 import Logo from "./assets/dummyFlightOnlyLogo.jpeg";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import BookTicket from "./components/BookTicket";

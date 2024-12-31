@@ -51,8 +51,8 @@ const Faqs = () => {
       sx={{
         position: "relative",
         width: "100%",
-        maxWidth: "1920px",
-        margin: "0 auto",
+        // maxWidth: "1920px",
+        // margin: "0 auto",
         paddingBottom: "20rem",
       }}
     >
@@ -62,7 +62,7 @@ const Faqs = () => {
           height: "500px",
           display: "grid",
           placeContent: "center",
-          backgroundColor: "var(--secondary-background-color)",
+          // backgroundColor: "var(--secondary-background-color)",
         }}
       >
         <Box
@@ -85,6 +85,7 @@ const Faqs = () => {
           justifyContent: "space-between",
           flexWrap: "wrap",
           rowGap: "15px",
+          backgroundColor: "#fff",
         }}
       >
         <Box
@@ -119,6 +120,7 @@ const Faqs = () => {
         style={{
           height: "auto",
           padding: "2.5rem 7rem",
+          backgroundColor: "#fff",
         }}
       >
         {accordianData?.map(({ summary, details, expanded }, index) => (

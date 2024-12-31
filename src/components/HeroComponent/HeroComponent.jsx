@@ -19,7 +19,9 @@ const HeroComponent = () => {
         position: "relative",
         display: "flex",
         justifyContent: "space-between",
-        width: "calc(100% - 8rem)",
+        // width: "calc(100% - 8rem)",
+        width: "calc(100%)",
+        backgroundColor: "#fff",
         padding: "2rem 1rem 2rem 7rem",
       }}
     >

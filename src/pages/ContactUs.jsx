@@ -22,8 +22,8 @@ const ContactUs = () => {
       sx={{
         position: "relative",
         width: "100%",
-        maxWidth: "1920px",
-        margin: "0 auto",
+        // maxWidth: "1920px",
+        // margin: "0 auto",
         paddingBottom: "20rem",
       }}
     >
@@ -33,7 +33,7 @@ const ContactUs = () => {
           height: "500px",
           display: "grid",
           placeContent: "center",
-          backgroundColor: "var(--secondary-background-color)",
+          // backgroundColor: "var(--secondary-background-color)",
         }}
       >
         <Box
@@ -54,9 +54,56 @@ const ContactUs = () => {
           alignItems: "center",
           justifyContent: "center",
           columnGap: "30px",
+          backgroundColor: "#fff",
+          paddingTop: "100px",
         }}
       >
-        <ContactCard
+        <div className="row">
+          <div className="col-4">
+            <ContactCard
+              title={"Contact Us"}
+              icons={<Phone />}
+              content={
+                "Phone : (+256) 214 203 215 \n Email : help@dummyflightticket.com"
+              }
+              action={
+                <Button variant="text" endIcon={<ArrowRightAlt />}>
+                  Get Started
+                </Button>
+              }
+            />
+          </div>
+
+          <div className="col-4">
+            <ContactCard
+              title={"Address Here"}
+              icons={<Business />}
+              content={`Head Office : A62, Sec-2, Noida,  Gautm Budhdha Nagar, Uttar Pradesh, India
+                 Branch Office : Shams Business Center, Sharjah Media City free Zone, Al Messaned, Sharjah, UAE.`}
+              action={
+                <Button variant="text" endIcon={<ArrowRightAlt />}>
+                  Get Started
+                </Button>
+              }
+            />
+          </div>
+
+          <div className="col-4">
+            <ContactCard
+              title={"Working Hours"}
+              icons={<AccessTime />}
+              content={
+                "All Days: 24 x 7  \n We are available 24/7, including on holidays and festivals, to meet your travel needs."
+              }
+              action={
+                <Button variant="text" endIcon={<ArrowRightAlt />}>
+                  Get Started
+                </Button>
+              }
+            />
+          </div>
+        </div>
+        {/* <ContactCard
           title={"Contact Us"}
           icons={<Phone />}
           content={
@@ -91,10 +138,16 @@ const ContactUs = () => {
               Get Started
             </Button>
           }
-        />
+        /> */}
       </Box>
 
-      <Box style={{ height: "835px", padding: "2.5rem 7rem" }}>
+      <Box
+        style={{
+          height: "835px",
+          padding: "2.5rem 7rem",
+          backgroundColor: "#fff",
+        }}
+      >
         <iframe
           title="Google Map"
           width="100%"

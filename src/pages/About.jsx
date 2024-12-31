@@ -52,10 +52,12 @@ const About = () => {
       </Box>
       <Box
         sx={{
-          width: "calc(100% - 10.3rem)",
+          width: "calc(100%)",
+          // width: "calc(100% - 10.3rem)",
           display: "flex",
           justifyContent: "space-between",
           padding: "7.6rem 10.3rem 7.6rem 0",
+          backgroundColor: "#fff",
         }}
       >
         <Box sx={{ width: "calc(50% - 1.5rem)" }}>
@@ -121,10 +123,12 @@ const About = () => {
       <AboutKeyFeatureComponent />
       <Box
         sx={{
-          width: "calc(100% - 10.3rem)",
+          // width: "calc(100% - 10.3rem)",
+          width: "calc(100%)",
           display: "flex",
           justifyContent: "space-between",
           padding: "7.6rem 0 7.6rem 10.3rem",
+          backgroundColor: "#fff",
         }}
       >
         <Box sx={{ width: "calc(50% - 1.5rem)" }}>
